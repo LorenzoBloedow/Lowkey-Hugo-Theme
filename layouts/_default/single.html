@@ -27,6 +27,8 @@
 
   {{ partial "single/comments/index" . }}
 
+  {{ partial "single/email-form" }}
+
   <footer>
     {{ with (.GetTerms "tags") }}
       <div class="pb-14 taxonomy-list tags-list">
