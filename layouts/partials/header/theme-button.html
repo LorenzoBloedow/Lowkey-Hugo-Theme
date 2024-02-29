@@ -7,7 +7,7 @@
   document.addEventListener('DOMContentLoaded', function () {
     const theme = localStorage.getItem('theme');
 
-    if (!theme || theme === 'light') {
+    if (theme === 'light') {
       setTheme('light');
     } else {
       setTheme(theme);
