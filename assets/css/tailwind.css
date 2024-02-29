@@ -146,12 +146,8 @@
     @apply mb-1;
   }
   
-  code {
-    @apply bg-gray-100 dark:bg-gray-800 rounded-lg text-sm border dark:border-gray-700 px-2 py-1;
-  }
-  
   pre {
-    @apply rounded-lg border dark:border-gray-700 p-5 overflow-auto text-base;
+    @apply rounded-lg border dark:border-gray-700 p-5 overflow-auto text-base bg-gray-100 dark:bg-gray-800 ;
   }
   
   pre code {
